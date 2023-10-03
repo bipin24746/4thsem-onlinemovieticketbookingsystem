@@ -1,0 +1,85 @@
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.movie-card {
+    display: flex;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.movie-details {
+    padding: 20px;
+}
+
+.movie-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.movie-details p {
+    margin-bottom: 8px;
+}
+
+.movie-details span {
+    font-weight: bold;
+}
+
+.booking-form {
+    margin-top: 50px;
+}
+
+.booking-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.booking-form input[type="date"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.booking-form select {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.booking-form button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* booking.css */
+.unavailable-seat {
+    background-color: red;
+  }
+  
